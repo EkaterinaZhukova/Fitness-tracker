@@ -14,7 +14,8 @@ class EnterViewController: UIViewController {
     @IBOutlet weak var loginTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
     @IBOutlet weak var enterBT: UIButton!
-     var arrUsers = [User]()
+    
+    var arrUsers = [User]()
     var currentUser:User? = nil
     override func viewDidLoad() {
         super.viewDidLoad()

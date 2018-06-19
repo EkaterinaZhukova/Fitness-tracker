@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		C44AA53420D5803800AAF2D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44AA53320D5803800AAF2D4 /* AppDelegate.swift */; };
-		C44AA53620D5803800AAF2D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44AA53520D5803800AAF2D4 /* ViewController.swift */; };
 		C44AA53920D5803800AAF2D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44AA53720D5803800AAF2D4 /* Main.storyboard */; };
 		C44AA53C20D5803800AAF2D4 /* KR_7.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C44AA53A20D5803800AAF2D4 /* KR_7.xcdatamodeld */; };
 		C44AA53E20D5803900AAF2D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44AA53D20D5803900AAF2D4 /* Assets.xcassets */; };
 		C44AA54120D5803900AAF2D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44AA53F20D5803900AAF2D4 /* LaunchScreen.storyboard */; };
+		C44AA54920D588FD00AAF2D4 /* AddTrainingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44AA54820D588FD00AAF2D4 /* AddTrainingVC.swift */; };
+		C48CE31820D68016008C998D /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48CE31720D68016008C998D /* RegistrationViewController.swift */; };
+		C48CE31A20D68027008C998D /* EnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48CE31920D68027008C998D /* EnterViewController.swift */; };
+		C48CE31C20D68E7B008C998D /* AddNewTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48CE31B20D68E7B008C998D /* AddNewTrainingViewController.swift */; };
+		C48CE31E20D6B18E008C998D /* ShowHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48CE31D20D6B18E008C998D /* ShowHistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C44AA53020D5803800AAF2D4 /* KR_7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KR_7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44AA53320D5803800AAF2D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C44AA53520D5803800AAF2D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C44AA53820D5803800AAF2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C44AA53B20D5803800AAF2D4 /* KR_7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KR_7.xcdatamodel; sourceTree = "<group>"; };
 		C44AA53D20D5803900AAF2D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C44AA54020D5803900AAF2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C44AA54220D5803900AAF2D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44AA54820D588FD00AAF2D4 /* AddTrainingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTrainingVC.swift; sourceTree = "<group>"; };
+		C48CE31720D68016008C998D /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegistrationViewController.swift; path = KR_7/Controller/RegistrationViewController.swift; sourceTree = SOURCE_ROOT; };
+		C48CE31920D68027008C998D /* EnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterViewController.swift; sourceTree = "<group>"; };
+		C48CE31B20D68E7B008C998D /* AddNewTrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTrainingViewController.swift; sourceTree = "<group>"; };
+		C48CE31D20D6B18E008C998D /* ShowHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,43 @@
 		C44AA53220D5803800AAF2D4 /* KR_7 */ = {
 			isa = PBXGroup;
 			children = (
+				C48CE31620D67FF3008C998D /* Controller */,
+				C48CE31520D67FEE008C998D /* View */,
+				C48CE31420D67FE6008C998D /* Model */,
 				C44AA53320D5803800AAF2D4 /* AppDelegate.swift */,
-				C44AA53520D5803800AAF2D4 /* ViewController.swift */,
-				C44AA53720D5803800AAF2D4 /* Main.storyboard */,
 				C44AA53D20D5803900AAF2D4 /* Assets.xcassets */,
 				C44AA53F20D5803900AAF2D4 /* LaunchScreen.storyboard */,
 				C44AA54220D5803900AAF2D4 /* Info.plist */,
 				C44AA53A20D5803800AAF2D4 /* KR_7.xcdatamodeld */,
+				C44AA54820D588FD00AAF2D4 /* AddTrainingVC.swift */,
 			);
 			path = KR_7;
+			sourceTree = "<group>";
+		};
+		C48CE31420D67FE6008C998D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C48CE31520D67FEE008C998D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C44AA53720D5803800AAF2D4 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C48CE31620D67FF3008C998D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C48CE31720D68016008C998D /* RegistrationViewController.swift */,
+				C48CE31920D68027008C998D /* EnterViewController.swift */,
+				C48CE31B20D68E7B008C998D /* AddNewTrainingViewController.swift */,
+				C48CE31D20D6B18E008C998D /* ShowHistoryViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44AA53620D5803800AAF2D4 /* ViewController.swift in Sources */,
+				C44AA54920D588FD00AAF2D4 /* AddTrainingVC.swift in Sources */,
 				C44AA53420D5803800AAF2D4 /* AppDelegate.swift in Sources */,
 				C44AA53C20D5803800AAF2D4 /* KR_7.xcdatamodeld in Sources */,
+				C48CE31E20D6B18E008C998D /* ShowHistoryViewController.swift in Sources */,
+				C48CE31820D68016008C998D /* RegistrationViewController.swift in Sources */,
+				C48CE31C20D68E7B008C998D /* AddNewTrainingViewController.swift in Sources */,
+				C48CE31A20D68027008C998D /* EnterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

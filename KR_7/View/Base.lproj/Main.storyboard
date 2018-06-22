@@ -333,26 +333,20 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yh0-1Q-Y11">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yzg-8Q-pGv">
-                                        <rect key="frame" x="15" y="83.5" width="345" height="30"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Начальная дата" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yzg-8Q-pGv">
+                                        <rect key="frame" x="15" y="84" width="345" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Введите конечную дату" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMm-AI-2pp">
-                                        <rect key="frame" x="68.5" y="130.5" width="238" height="26"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Eel-2s-V3w">
-                                        <rect key="frame" x="15" y="186.5" width="345" height="30"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Конечная дата" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Eel-2s-V3w">
+                                        <rect key="frame" x="15" y="187" width="345" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardAppearance="alert" returnKeyType="go"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LxO-1Y-Ybc">
-                                        <rect key="frame" x="140.5" y="246.5" width="94" height="36"/>
+                                        <rect key="frame" x="141" y="247" width="94" height="36"/>
                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="tintColor" red="1" green="0.99456440040000005" blue="0.89365232640000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -397,7 +391,7 @@
                                         </connections>
                                     </tableView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Введите начальную дату" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0Z-jb-FTM">
-                                        <rect key="frame" x="63.5" y="37.5" width="249" height="26"/>
+                                        <rect key="frame" x="63" y="38" width="249" height="26"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -405,25 +399,22 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="yzg-8Q-pGv" firstAttribute="top" secondItem="T0Z-jb-FTM" secondAttribute="bottom" constant="20" id="3Bu-0n-tsU"/>
                                     <constraint firstItem="G3t-s5-C9N" firstAttribute="leading" secondItem="Yh0-1Q-Y11" secondAttribute="leading" id="5MU-rM-d9U"/>
-                                    <constraint firstItem="KMm-AI-2pp" firstAttribute="centerY" secondItem="Yh0-1Q-Y11" secondAttribute="centerY" constant="-190" id="80r-4R-Ncj"/>
                                     <constraint firstItem="T0Z-jb-FTM" firstAttribute="centerY" secondItem="Yh0-1Q-Y11" secondAttribute="centerY" constant="-283" id="BDb-mj-XEK"/>
                                     <constraint firstItem="Eel-2s-V3w" firstAttribute="leading" secondItem="Yh0-1Q-Y11" secondAttribute="leading" constant="15" id="Bnj-Bs-YYM"/>
-                                    <constraint firstItem="Eel-2s-V3w" firstAttribute="top" secondItem="KMm-AI-2pp" secondAttribute="bottom" constant="30" id="Cmr-3M-hOe"/>
                                     <constraint firstItem="G3t-s5-C9N" firstAttribute="centerY" secondItem="Yh0-1Q-Y11" secondAttribute="centerY" constant="183" id="JxU-vm-MXl"/>
                                     <constraint firstItem="yzg-8Q-pGv" firstAttribute="leading" secondItem="Yh0-1Q-Y11" secondAttribute="leading" constant="15" id="L8f-np-l2L"/>
+                                    <constraint firstItem="Eel-2s-V3w" firstAttribute="top" secondItem="yzg-8Q-pGv" secondAttribute="bottom" constant="73" id="MhZ-3p-ieA"/>
                                     <constraint firstItem="G3t-s5-C9N" firstAttribute="centerX" secondItem="yzg-8Q-pGv" secondAttribute="centerX" id="P1l-DG-9PC"/>
                                     <constraint firstItem="G3t-s5-C9N" firstAttribute="centerX" secondItem="Yh0-1Q-Y11" secondAttribute="centerX" id="PXH-xX-KM9"/>
                                     <constraint firstItem="G3t-s5-C9N" firstAttribute="centerX" secondItem="T0Z-jb-FTM" secondAttribute="centerX" id="QwW-cf-ALB"/>
                                     <constraint firstAttribute="trailing" secondItem="Eel-2s-V3w" secondAttribute="trailing" constant="15" id="SwM-7Q-qnr"/>
                                     <constraint firstItem="T0Z-jb-FTM" firstAttribute="centerX" secondItem="Yh0-1Q-Y11" secondAttribute="centerX" id="TLQ-qE-7vD"/>
                                     <constraint firstItem="LxO-1Y-Ybc" firstAttribute="centerY" secondItem="Yh0-1Q-Y11" secondAttribute="centerY" constant="-69" id="VvF-b0-LGs"/>
-                                    <constraint firstItem="G3t-s5-C9N" firstAttribute="centerX" secondItem="KMm-AI-2pp" secondAttribute="centerX" id="ZAw-2x-USJ"/>
-                                    <constraint firstItem="KMm-AI-2pp" firstAttribute="top" secondItem="yzg-8Q-pGv" secondAttribute="bottom" constant="17" id="a7B-uz-0FK"/>
                                     <constraint firstItem="LxO-1Y-Ybc" firstAttribute="centerX" secondItem="Yh0-1Q-Y11" secondAttribute="centerX" id="auI-Rm-cLD"/>
                                     <constraint firstAttribute="bottom" secondItem="G3t-s5-C9N" secondAttribute="bottom" id="ca4-96-FiQ"/>
                                     <constraint firstAttribute="trailing" secondItem="yzg-8Q-pGv" secondAttribute="trailing" constant="15" id="e7P-rb-tv4"/>
-                                    <constraint firstItem="KMm-AI-2pp" firstAttribute="centerX" secondItem="Yh0-1Q-Y11" secondAttribute="centerX" id="zmg-db-Cts"/>
                                 </constraints>
                             </view>
                         </subviews>
